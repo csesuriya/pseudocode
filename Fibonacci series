@@ -1,0 +1,10 @@
+dec a,b,n,nx;
+dec a=0, b=1;                        a=0,b=1;
+get n value for fibonacci            n=5
+for(i=1;i<=n;i++)                    1<=5,        2<=5
+{
+print a                              0            1
+nx=a+b;                              nx=0+1=1     nx=1+1=2
+a=b;                                 a=1          a=1
+b=nx;                                b=1          b=2
+}  
