@@ -1,0 +1,11 @@
+//Maximum//
+Dec a,b                    
+get value a,b              a=5,b=8
+if a>b return a            falls
+else return b              b is greater
+
+//Minimum//
+dec a,b
+get value a,b              a=10, b=15
+if a<b return a            10<15 True(a is lesser)
+else return b
