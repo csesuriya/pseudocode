@@ -1,0 +1,5 @@
+//Sum of number//
+Declare a,b,c
+Get value of a,b,c			a=5,b=10,c=20	
+Sum=a+b+c				sum=5+10+20
+Print sum value				35
