@@ -1,0 +1,7 @@
+Declare a,b
+get value a,b        a=5,b=10
+temp c
+store c=a,          c=5
+store a=b,          a=10
+store b=c,          b=5
+print a,b
