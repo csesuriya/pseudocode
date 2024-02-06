@@ -1,0 +1,4 @@
+Dec num      
+Get num=5
+If num modulo 2 equal 0 even(Print even)	      5%2==0 No
+Or not print odd
