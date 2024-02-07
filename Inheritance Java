@@ -9,3 +9,16 @@ class Vehicle {
       System.out.println(myFastCar.brand + " " + myFastCar.modelName);
     }
   }
+------------------------------------------------------------------------------------------------
+Ex 2
+class Bike {
+    public String brand = "Pulsar";
+    }
+class Model entends Bike {
+    String bikeModel = "150";
+    public static void main(String[] args)
+    {
+        Model myBike = new Model();
+        system.out.println(myBike.brand +""+ myBike.bikeModel);
+    }
+}
