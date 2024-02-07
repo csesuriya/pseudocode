@@ -1,0 +1,27 @@
+abstract class Bike{
+    void millege(){
+        System.out.println("the millege");
+    }
+}
+
+class TVS extends Bike{
+    void millege(){
+        System.out.println("The TVS Millege is 50");
+    }
+}
+
+class Pulsar extends Bike{
+    void millege(){
+        System.out.println("The Pulsar Millege is 30");
+    }
+}
+
+class Check {
+    public static void main(String[] args) {
+        TVS ob = new TVS();
+        ob.millege();
+
+        Pulsar ob1 = new Pulsar();
+        ob1.millege();
+    }
+}
