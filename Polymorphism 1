@@ -1,0 +1,30 @@
+class Developer {
+    public void devtype() {
+        System.out.println("Developes");
+    }
+}
+
+class Java extends Developer {
+    public void  devtype() {
+        System.out.println("Java");
+    }
+}
+
+class Python extends Developer {
+    public void devtype() {
+        System.out.println("Python");
+    }
+}
+
+class main{
+    public static void main(String[] args) {
+        Developer ob = new Developer();
+        Developer ob1 = new Java();
+        Developer ob2 = new Python();
+
+        ob.devtype();
+        ob1.devtype();
+        ob2.devtype();
+
+    }
+}
