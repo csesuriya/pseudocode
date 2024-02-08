@@ -1,0 +1,16 @@
+class poly{
+    public static void main(String[] args) {
+        method ob = new method();
+        ob.display();
+        ob.display(20);
+    }
+}
+
+class method{
+    void display(){
+        System.out.println(10);
+    }
+    void display(int a){
+        System.out.println(a);
+    }
+}
