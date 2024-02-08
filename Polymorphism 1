@@ -18,11 +18,10 @@ class Python extends Developer {
 
 class main{
     public static void main(String[] args) {
-        Developer ob = new Developer();
+
         Developer ob1 = new Java();
         Developer ob2 = new Python();
 
-        ob.devtype();
         ob1.devtype();
         ob2.devtype();
 
