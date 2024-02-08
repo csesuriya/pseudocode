@@ -11,14 +11,27 @@ class Vehicle {
   }
 ------------------------------------------------------------------------------------------------
 Ex 2
-class Bike {
-    public String brand = "Pulsar";
+class Animal{
+    int leg=4;
+    void walk(){
+        System.out.println("I will walk");
     }
-class Model entends Bike {
-    String bikeModel = "150";
-    public static void main(String[] args)
-    {
-        Model myBike = new Model();
-        system.out.println(myBike.brand +""+ myBike.bikeModel);
+    void eat(){
+        System.out.println("I will eat");
+    }
+}
+/*inherit from animal leg,walk,eat */
+class Dog extends Animal{
+    
+    String Mydog = "As a Dog";
+}
+
+class main{
+    public static void main(String[] args) {
+        Dog obj = new Dog();
+        System.out.println(obj.Mydog);
+        obj.eat();
+        obj.walk();
+
     }
 }
