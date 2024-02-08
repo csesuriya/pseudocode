@@ -14,3 +14,21 @@ class method{
         System.out.println(a);
     }
 }
+-------------------------------------------------------------------------------------------------------------------------------
+Example 2
+class Animal {
+    void sound(){
+        System.out.println("Animal Sound is low");
+    }
+    void sound(String Spec){
+        System.out.println("Animal Sound is " + Spec + " " );
+    }
+}
+
+class main{
+    public static void main(String[] args) {
+        Animal ani = new Animal();
+        ani.sound();
+        ani.sound("Loud");
+    }
+}
