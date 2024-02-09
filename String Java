@@ -1,0 +1,22 @@
+public class Main {
+  public static void main(String[] args) {
+    String txt = "TeXt";					/*	String		*/
+    String txt1 = "Text2";
+    int x = 10;
+    int y = 20;
+    int z;
+    String txt2;
+    System.out.println(txt);				/*	Op Text		*/
+    System.out.println(txt.length());		/*	4			*/
+    System.out.println(txt.toUpperCase());	/*	TEXT		*/
+    System.out.println(txt.toLowerCase());	/*	text		*/
+    System.out.println(txt.indexOf("X"));	/*	2			*/
+    System.out.println(txt +" "+txt1);		/*	TeXt Text2	*//*Concatenation*/
+    System.out.println(txt.concat(txt1));	/*	TeXtText2	*//*Concatenation*/
+    z=x+y;
+    System.out.println(z);					/*	30			*/
+    txt2=txt+x;
+    System.out.println(txt2);				/*	TeXt10		*/
+    
+  }
+}
