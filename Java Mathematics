@@ -1,0 +1,32 @@
+public class Main {
+  public static void main(String[] args) {
+  
+    int x=10;
+    int y=20;
+    /* Arithmetic Operators */
+    System.out.println(x+y);			/*	30	*/
+	System.out.println(x-y);			/*	-10	*/
+    System.out.println(x*y);			/*	200	*/
+    System.out.println(y/x);			/*	2	*/
+    System.out.println(y%x);			/*	0	*/
+    /* Assignment Operators */
+    x += 30;							/*x=x+30*/
+    System.out.println(x);				/*	40	*/
+    x -= 5;								/*x=x-5	*/
+    System.out.println(x);				/*	35	*/
+    /* Comparison Operators */
+    int a = 10;
+    int b = 20;
+	System.out.println(a>b);			/*	false	*/
+    System.out.println(a<b);			/*	True	*/
+	System.out.println(a==b);			/*	false	*/
+	System.out.println(a!=b);			/*	ture	*/
+    System.out.println(a<=b);			/*	true	*/
+	System.out.println(a>=b);			/*	false	*/
+    /* Logical Operators */
+    int c=10;
+    System.out.println(c>5 && c<15);	/*	true	*/
+	System.out.println(c>5 || c<8);		/*	true	*/
+	System.out.println(!(c>5 || c<8));	/*	false	*/
+  }
+}
