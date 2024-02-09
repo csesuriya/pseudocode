@@ -1,0 +1,23 @@
+static method no need an object to call
+
+public class Main {
+  static void method() {
+    System.out.println("This is static");
+  }
+
+  public static void main(String[ ] args) {
+    method(); // Call the static method
+
+  }
+}
+------------------------------------------------------------------------
+For public method need an oject to call
+class main{
+  public class method() {
+    System.out.println("Public Method");
+  }
+public static void main() {
+  main ob = new main();
+  ob.method();
+  }
+}
