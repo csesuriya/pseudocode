@@ -1,0 +1,10 @@
+public class Main {
+
+  public static void main(String[] args) {
+    float x = 10.7f;            
+    int y = (int) x;
+    System.out.println(y);                        /* result 10 */
+    int z = Math.round(x);
+    System.out.println(z);                        /* result 11 */
+  }
+}
