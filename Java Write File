@@ -1,0 +1,16 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class write {
+	public static void main(String[] args) {
+		try	{
+			FileWriter obj = new FileWriter("C:\\java\\test.txt");
+			obj.write("Test the text");
+			obj.close();
+			System.out.println("Writed Successfully");
+		} catch (IOException e) {
+			System.out.println("error");
+			e.printStackTrace();
+		}
+	}
+}
