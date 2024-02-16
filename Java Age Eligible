@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Eligible {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the your age");
+		int age = scanner.nextInt();
+		scanner.close();
+		if(age>=18)
+		{
+			System.out.println("Your Indian Citizenship and Eligible to Vote");
+		}
+		else
+		{
+			System.out.println("Your Not Indian Citizenship and Not Eligible to Vote");
+		}
+	
+	}
+}
