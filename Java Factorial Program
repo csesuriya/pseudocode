@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the value for factorial");
+		int num = scanner.nextInt();
+		scanner.close();
+		int sum = 1;
+		if(num>0)
+		{
+			for(int i=1; i<=num; i++)
+			{
+				sum = sum * i;
+			}
+			System.out.println("The Factorial Value is " + sum);
+		}
+		else
+		{
+			sum=0;
+			System.out.println("The Fact of " + num + " is " + sum);
+		}
+	}
+}
