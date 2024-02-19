@@ -1,0 +1,17 @@
+public class Exchandling {
+	
+	static void Check(int age) {
+		if(age<18) {
+			throw new ArithmeticException("Age invalid");
+		}
+	}
+	
+	public static void main(String[] args) {
+		try {
+			Check(17);
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+}
