@@ -6,13 +6,13 @@ public class Stringdemo {
 		String s2 = new String("Hello");
 		String s3 = "Hello";
 		String s4 = "Hello";
-		if(s1 == s2) {
+		if(s1 == s2) {						//Comapre objects
 			System.out.println("True");		
 			}
 		else {
 			System.out.println("False");
 		}
-		if(s3 == s4) {
+		if(s3 == s4) {						//Compare value
 			System.out.println("True");		
 			}
 		else {
