@@ -4,3 +4,11 @@ public class Arguments {
 	 System.out.println("The Argument is " + args[0]);
  }
 }
+
+what if u replace args with commandLineInputs
+
+public class Arguments {
+ public static void main(String[] comment) {
+	 System.out.println("The Argument is " + comment[0]);
+ }
+}
