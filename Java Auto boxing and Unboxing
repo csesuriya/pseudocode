@@ -1,0 +1,18 @@
+
+public class AutoboxingUnboxing {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		Integer obj = Integer.valueOf(a);  //boxing
+		Integer obj1=a;//auto boxing
+		Integer obj2=20;//auto boxing
+		
+		System.out.println(obj +" "+ obj1 +" "+obj2);
+		
+		
+		int b = obj.intValue();//unboxing
+		int c = obj1;//auto unboxing
+		System.out.println(b+""+c);
+	}
+}
