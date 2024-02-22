@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class AutoboxingAdDis {
+
+		public static void main(String[] args) {
+			
+//advantage Code readability and time consuming
+			
+			int a = 10;
+			Integer aobj1 = a;//auto boxing
+			Double aobj2 = 10.5;//auto boxing
+			System.out.println(aobj1 +" "+ aobj2);
+			
+//Disadvantage memory consumption and performance degrade
+			
+	        List<Integer> list = new ArrayList<>();
+	        for (int i = 0; i < 10; ++i) {
+	            list.add(i); // Autoboxing occurs here
+	            System.out.println(i);
+	        }
+	    }
+}
