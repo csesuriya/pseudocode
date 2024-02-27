@@ -1,0 +1,24 @@
+import java.util.LinkedList;
+
+public class Link {
+	public static void main(String[] args) {
+		LinkedList<String> linklist = new LinkedList<>();
+		linklist.add("Cat1");
+		linklist.add("Cat2");
+		linklist.add("Cat3");
+		linklist.add("Cat4");
+		linklist.add("Cat5");
+		for(String temp:linklist) {
+			System.out.println(temp);
+		}
+		
+		linklist.remove(3);
+		
+		for(String temp:linklist) {
+			System.out.println(temp);
+		}
+		
+		
+	}
+
+}
