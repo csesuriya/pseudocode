@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Arylist {
+
+	public static void main(String[] args) {
+		ArrayList<String> Ary = new ArrayList<>();
+		Ary.add("Test1");
+		Ary.add("Test2");
+		Ary.add("Test3");
+		Ary.addFirst("FirstTest");
+		for(String temp:Ary) {
+			System.out.println(temp);
+		}
+		
+		//After Modify
+		Ary.remove(1);
+		for(String temp:Ary) {
+			System.out.println(temp);
+		}
+	}
+}
